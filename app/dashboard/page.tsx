@@ -5,7 +5,7 @@ import { listAssessments } from "@/lib/db/assessments";
 import { getLeadTag, type AssessmentScore, type LeadTag } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Dashboard | AiDamsole",
+  title: "Dashboard | Royal Wings Marketing",
   description: "Internal assessment lead dashboard.",
 };
 

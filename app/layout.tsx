@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/icon", type: "image/png" },
-      { url: "/brand/favicon.svg", type: "image/svg+xml" },
-      { url: "/brand/aidamsole-logo.png", type: "image/png" },
+      { url: "/brand/favicon.webp", type: "image/webp" },
+      { url: "/brand/royal-wings-marketing-logo@2x.webp", type: "image/webp" },
     ],
     shortcut: "/icon",
     apple: "/brand/apple-touch-icon.png",
@@ -63,9 +63,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         </a>
         
         {children}
-
+ 
         <a
-          href="https://wa.me/919356917424?text=Hi%20AiDamsole%20team%2C%20I'd%20like%20to%20get%20a%20consultation%20and%20system%20audit%20for%20my%20business."
+          href="https://wa.me/919356917424?text=Hi%20Royal%20Wings%20Marketing%20team%2C%20I'd%20like%20to%20get%20a%20consultation%20and%20system%20audit%20for%20my%20business."
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-20 right-6 z-[9999] flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full border-2 border-white bg-[#25D366] text-white shadow-2xl hover:scale-112 hover:shadow-[0_0_20px_rgba(37,211,102,0.45)] active:scale-95 transition-all duration-300 group"

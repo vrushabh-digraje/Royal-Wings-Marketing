@@ -32,7 +32,7 @@ const simulateLogs = (stepIndex: number, label: string) => {
       color: "text-rose-500",
       bg: "bg-rose-500/10",
       logs: [
-        "[09:00:01] Inbound webhook received from www.aidamsole.com",
+        "[09:00:01] Inbound webhook received from www.royalwingsmarketing.com",
         "[09:00:02] Payload validated: Name=\"Rahul S.\" Email=\"rahul@domain.com\"",
         "[09:00:02] UTM source identified: \"Google Search Ad Campaign\"",
         "[09:00:03] Capture status: SUCCESS (Lead Object Prepared)"

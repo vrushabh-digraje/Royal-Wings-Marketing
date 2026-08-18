@@ -49,7 +49,7 @@ export const homepageStats: StatItem[] = [
   },
   { 
     label: "Regions", 
-    value: "India & GCC",
+    value: "UAE & GCC",
     accentColor: "border-t-[4px] border-t-red-500 hover:border-red-500",
     bgPattern: (
       <svg className="absolute -bottom-4 -right-4 h-24 w-24 text-red-500/10 transition-transform duration-500 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">

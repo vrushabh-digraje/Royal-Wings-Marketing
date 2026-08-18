@@ -3,17 +3,17 @@
 
 :root {
   /* Brand */
-  --primary: #1e3a8a;
-  --primary-soft: #dbeafe;
-  --primary-muted: #eff6ff;
-  --secondary: #64748b;
-  --secondary-soft: #f1f5f9;
-  --accent: #3b82f6;
-  --accent-soft: #eff6ff;
+  --primary: #031833;
+  --primary-soft: #e6f0fa;
+  --primary-muted: #f4f8fd;
+  --secondary: #b89047;
+  --secondary-soft: #faf6eb;
+  --accent: #1b7de0;
+  --accent-soft: #e8f2fc;
   --danger: #dc2626;
 
   /* Neutrals */
-  --gray-900: #0f172a;
+  --gray-900: #0f1e36;
   --gray-800: #1e293b;
   --gray-700: #334155;
   --gray-600: #475569;
@@ -22,10 +22,10 @@
   --gray-300: #cbd5e1;
   --gray-200: #e2e8f0;
   --gray-100: #f1f5f9;
-  --gray-50: #f8fafc;
+  --gray-50: #fafbfc;
 
   --background: #ffffff;
-  --surface-muted: #f8fafc;
+  --surface-muted: #fafbfc;
 }
 
 @theme inline {
@@ -48,6 +48,16 @@
   --color-gray-200: var(--gray-200);
   --color-gray-100: var(--gray-100);
   --color-gray-50: var(--gray-50);
+
+  /* Map standard blue tailwind utilities to the logo royal blue */
+  --color-blue-50: var(--accent-soft);
+  --color-blue-100: var(--accent-soft);
+  --color-blue-200: var(--accent-soft);
+  --color-blue-500: var(--accent);
+  --color-blue-600: var(--accent);
+  --color-blue-700: var(--accent);
+  --color-blue-800: var(--accent);
+  --color-blue-900: var(--primary);
 
   --color-background: var(--background);
   --color-surface-muted: var(--surface-muted);
@@ -222,7 +232,7 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-lg bg-blue-700 px-6 py-3 text-sm font-semibold text-white no-underline shadow-sm transition duration-300 ease-in-out hover:scale-[1.02] hover:bg-blue-800 hover:no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700 disabled:opacity-60;
+    @apply inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-white no-underline shadow-sm transition duration-300 ease-in-out hover:scale-[1.02] hover:bg-accent/90 hover:no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-60;
   }
 
   .btn-secondary {

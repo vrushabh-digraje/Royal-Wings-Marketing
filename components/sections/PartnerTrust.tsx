@@ -21,7 +21,7 @@ const stats = [
   },
   {
     label: "REGIONS",
-    value: "India & GCC",
+    value: "UAE & GCC",
     icon: "building" as const,
   },
   {
@@ -67,7 +67,7 @@ export function PartnerTrust({
               Official Zoho Authorized Partner
             </p>
             <p className="mt-1 text-xs md:text-sm leading-snug text-gray-500 max-w-sm">
-              Zoho systems for retail and distribution teams across India &amp;
+              Zoho systems for retail and distribution teams across the UAE &amp;
               the GCC — implementation, training, and support.
             </p>
           </div>

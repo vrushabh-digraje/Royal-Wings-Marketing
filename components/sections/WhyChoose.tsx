@@ -85,8 +85,8 @@ const proofs = [
   },
   {
     id: "coverage",
-    title: "India & GCC",
-    caption: "Manchar · Ajman coverage",
+    title: "UAE & GCC",
+    caption: "Ajman operations & GCC support",
     iconBg: "bg-emerald-50 text-emerald-600 group-hover/proof:bg-emerald-600 group-hover/proof:text-white",
     borderHover: "hover:border-emerald-200 hover:ring-1 hover:ring-emerald-500/10",
     icon: (
@@ -148,13 +148,13 @@ export function WhyChoose({
         {/* Left — copy (Takes 4/12 columns) */}
         <div className="max-w-md lg:col-span-4">
           <p className="text-xs font-bold uppercase tracking-widest text-blue-600">
-            Why Aidamsole
+            Why Royal Wings Marketing
           </p>
           <h2
             id={headingId}
             className="mt-3 text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl"
           >
-            Why clients choose Aidamsole?
+            Why clients choose Royal Wings Marketing?
           </h2>
           <p className="mt-4 text-sm md:text-base leading-relaxed text-gray-500">
             Businesses choose us for one reason — we make Zoho work for how

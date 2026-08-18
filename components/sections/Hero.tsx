@@ -29,7 +29,7 @@ type HeroProps = {
 const defaultHighlights = [
   "Certified Zoho consultants",
   "CRM, Books, Projects & more",
-  "India & GCC delivery",
+  "UAE & GCC delivery",
 ];
 
 const heroApps = [
@@ -41,7 +41,7 @@ const heroApps = [
 ] as const;
 
 export function Hero({
-  eyebrow = "Zoho Authorized Partner · India & GCC",
+  eyebrow = "Zoho Authorized Partner · UAE & GCC",
   title = "Zoho Implementation Partner for Growing Businesses",
   description = "We help mid-sized companies implement Zoho CRM and connected apps — so sales, operations, and finance run as one system.",
   primaryCta = {

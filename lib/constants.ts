@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Aidamsole",
-  legalName: "Aidamsole Agile Services Pvt Ltd",
+  name: "Royal Wings Marketing",
+  legalName: "Royal Wings Marketing",
   description:
-    "Zoho Authorized Partner for retail & distribution and mid-sized businesses across India & GCC. Zoho CRM implementation, consulting, training, and support.",
+    "Zoho Authorized Partner for retail & distribution and mid-sized businesses across UAE & GCC. Zoho CRM implementation, consulting, training, and support.",
   tagline: "Zoho Authorized Partner",
-  email: "sales@aidamsole.com",
-  /** WhatsApp (India) — digits only with country code */
-  whatsapp: "919356917424",
+  email: "hi@royalwingsmarketing.com",
+  /** WhatsApp (UAE) — digits only with country code */
+  whatsapp: "971568309866",
   phones: {
     india: {
       display: "093569 17424",
@@ -38,7 +38,7 @@ export const SITE = {
     },
   },
   /** Google Maps / listing share link */
-  mapsUrl: "https://share.google/LcLUjuaui2ukUIiFh",
+  mapsUrl: "https://maps.app.goo.gl/yJ6FhGj8gD6P2vK48",
 } as const;
 
 export const ROUTES = {
@@ -62,7 +62,7 @@ export const PRIMARY_CTA = {
 
 function whatsappHref(message?: string) {
   const text = encodeURIComponent(
-    message ?? "Hi Aidamsole — I’d like a free Zoho consultation.",
+    message ?? "Hi Royal Wings Marketing — I’d like a free Zoho consultation.",
   );
   return `https://wa.me/${SITE.whatsapp}?text=${text}`;
 }

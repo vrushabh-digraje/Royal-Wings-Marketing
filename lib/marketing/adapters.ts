@@ -95,7 +95,7 @@ function platformFaqs(productName: string): MarketingFaqItem[] {
     {
       question: "Who is this for?",
       answer:
-        "Mid-sized teams in India and the GCC — especially retail, distribution, and manufacturing — that need ownership and visibility, not another unused module.",
+        "Mid-sized teams in the UAE and the GCC — especially retail, distribution, and manufacturing — that need ownership and visibility, not another unused module.",
     },
     {
       question: "What happens in the setup audit?",

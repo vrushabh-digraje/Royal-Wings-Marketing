@@ -32,7 +32,7 @@ export default function AboutPage() {
                 {SITE.legalName} helps mid-sized companies design and implement Zoho
                 so sales, operations, and finance run as one system — with a focus
                 on retail &amp; distribution and other process-heavy verticals across
-                India and the GCC.
+                the UAE and the GCC.
               </p>
               <p className="mt-4 text-base leading-relaxed text-gray-600">
                 We start with how your business operates today, then configure Zoho
@@ -122,7 +122,7 @@ export default function AboutPage() {
                 Why Choose Us
               </p>
               <h2 className="mt-3 text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-                Why businesses partner with Aidamsole
+                Why businesses partner with Royal Wings Marketing
               </h2>
             </div>
             
@@ -174,7 +174,7 @@ export default function AboutPage() {
               Regional Operations
             </h2>
             <p className="mt-2 text-sm text-gray-500">
-              Get in touch with our certified implementation teams based in India and the UAE.
+              Get in touch with our certified implementation teams based in the UAE and India.
             </p>
           </div>
 
@@ -188,7 +188,7 @@ export default function AboutPage() {
               
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-wider text-amber-600">
-                  India Head Office
+                  India Delivery Center
                 </p>
                 <a
                   href={`tel:${SITE.phones.india.tel}`}
@@ -223,7 +223,7 @@ export default function AboutPage() {
               
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-wider text-sky-600">
-                  GCC Regional Office (UAE)
+                  UAE Head Office (GCC)
                 </p>
                 <a
                   href={`tel:${SITE.phones.uae.tel}`}

@@ -17,9 +17,9 @@ export function OrganizationJsonLd() {
         email: SITE.email,
         description: SITE.description,
         sameAs: [
-          "https://www.linkedin.com/company/aidamsole",
-          "https://x.com/aidamsole",
-          "https://www.youtube.com/@aidamsole",
+          "https://www.linkedin.com/company/royalwingsmarketing",
+          "https://x.com/royalwingsmktg",
+          "https://www.youtube.com/@royalwingsmarketing",
         ],
       },
       {

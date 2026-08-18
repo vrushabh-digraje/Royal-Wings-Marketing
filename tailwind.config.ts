@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 /**
- * Aidamsole enterprise design system tokens.
+ * Royal Wings Marketing design system tokens.
  * Prefer semantic tokens (primary, secondary, accent) over raw palette in UI.
  */
 const config: Config = {
@@ -9,39 +9,39 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#1E3A8A",
+          DEFAULT: "#031833",
           foreground: "#FFFFFF",
-          soft: "#DBEAFE",
-          muted: "#EFF6FF",
+          soft: "#e6f0fa",
+          muted: "#f4f8fd",
         },
         secondary: {
-          DEFAULT: "#64748B",
+          DEFAULT: "#b89047",
           foreground: "#FFFFFF",
-          soft: "#F1F5F9",
+          soft: "#faf6eb",
         },
         accent: {
-          DEFAULT: "#3B82F6",
+          DEFAULT: "#1b7de0",
           foreground: "#FFFFFF",
-          soft: "#EFF6FF",
+          soft: "#e8f2fc",
         },
         danger: {
           DEFAULT: "#DC2626",
           soft: "#FEF2F2",
         },
         gray: {
-          900: "#0F172A",
-          800: "#1E293B",
+          900: "#0f1e36",
+          800: "#1e293b",
           700: "#334155",
           600: "#475569",
-          500: "#64748B",
-          400: "#94A3B8",
-          300: "#CBD5E1",
-          200: "#E2E8F0",
-          100: "#F1F5F9",
-          50: "#F8FAFC",
+          500: "#64748b",
+          400: "#94a3b8",
+          300: "#cbd5e1",
+          200: "#e2e8f0",
+          100: "#f1f5f9",
+          50: "#fafbfc",
         },
         background: "#FFFFFF",
-        "surface-muted": "#F8FAFC",
+        "surface-muted": "#fafbfc",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "ui-sans-serif", "system-ui", "sans-serif"],

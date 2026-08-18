@@ -100,7 +100,7 @@ export default function ApproachPage() {
         spacing="prominent"
         eyebrow="Approach"
         title="Process first. Zoho second. Adoption always."
-        description="Aidamsole designs the operating system your team can run weekly — then configures Zoho to enforce it. Configuration without ownership rules is how implementations fail after go-live."
+        description="Royal Wings Marketing designs the operating system your team can run weekly — then configures Zoho to enforce it. Configuration without ownership rules is how implementations fail after go-live."
         primaryCta={CTAS.primary}
         secondaryCta={CTAS.whatsapp}
         aside={<InteractiveApproachAside />}
@@ -126,7 +126,7 @@ export default function ApproachPage() {
         tone="muted"
         spacing="default"
         title="Approach questions"
-        description="How we work with mid-sized teams in India and the GCC."
+        description="How we work with mid-sized teams in the UAE and the GCC."
         items={[...faqs]}
       />
 

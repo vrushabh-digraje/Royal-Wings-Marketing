@@ -118,7 +118,7 @@ export default function HomePage() {
       <FaqJsonLd items={faqs} />
       <Hero
         variant="authority"
-        eyebrow="Zoho Authorized Partner · India & GCC"
+        eyebrow="Zoho Authorized Partner · UAE & GCC"
         title="Zoho Partner for Retail & Distribution Teams"
         description="We help mid-sized retail and distribution businesses implement Zoho CRM and connected apps — so sales, stock, and finance run as one system."
         primaryCta={CTAS.primary}

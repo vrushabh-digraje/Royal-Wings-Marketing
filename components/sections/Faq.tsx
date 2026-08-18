@@ -25,7 +25,7 @@ type FaqProps = {
 
 export function Faq({
   title = "Frequently asked questions",
-  description = "Common questions about Zoho implementation with Aidamsole.",
+  description = "Common questions about Zoho implementation with Royal Wings Marketing.",
   items,
   tone = "muted",
   spacing = "default",

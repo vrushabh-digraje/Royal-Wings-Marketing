@@ -401,7 +401,7 @@ function IndustriesPanel({
     <PanelShell labelledBy={labelledBy} className="max-w-4xl" isOpen={isOpen}>
       <PanelHeader 
         title="Industries" 
-        description="Industry process models across India and the UAE." 
+        description="Industry process models across the UAE and the GCC." 
         href={href} 
         onLinkClick={onLinkClick}
       />

@@ -55,7 +55,7 @@ export default function SolutionsIndexPage() {
                 Zoho operating systems by function
               </h1>
               <p className="mt-5 text-base leading-relaxed text-gray-600 sm:text-lg">
-                Solution designs Aidamsole implements most often — process first, then
+                Solution designs Royal Wings Marketing implements most often — process first, then
                 Zoho configuration.
               </p>
               

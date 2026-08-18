@@ -17,7 +17,7 @@ const contactFaqs = [
   {
     question: "What happens after I submit the form?",
     answer:
-      "An Aidamsole consultant reviews your note and follows up to schedule a System Audit conversation. There is no automated demo theater — the next step is a real discussion of how your team operates.",
+      "A Royal Wings Marketing consultant reviews your note and follows up to schedule a System Audit conversation. There is no automated demo theater — the next step is a real discussion of how your team operates.",
   },
   {
     question: "Is the System Audit free?",
@@ -25,9 +25,9 @@ const contactFaqs = [
       "Yes. The initial consultation and System Audit discussion are free. Any paid implementation work is scoped separately after we agree on fit and approach.",
   },
   {
-    question: "Do you work with teams outside India?",
+    question: "Do you work with teams outside the UAE?",
     answer:
-      "Yes. We support mid-sized teams across India and the GCC, with offices in Manchar, Maharashtra and Ajman Free Zone, UAE.",
+      "Yes. We support mid-sized teams across the UAE and the GCC, with offices in Ajman Free Zone, UAE and Manchar, Maharashtra.",
   },
   {
     question: "Should I book WhatsApp or the form?",
@@ -65,7 +65,7 @@ export default function ContactPage() {
             
             <div>
               <p className="text-[10px] font-bold uppercase tracking-wider text-amber-600">
-                India Operations
+                India Delivery Center
               </p>
               <a
                 href={`tel:${SITE.phones.india.tel}`}
@@ -100,7 +100,7 @@ export default function ContactPage() {
             
             <div>
               <p className="text-[10px] font-bold uppercase tracking-wider text-sky-600">
-                UAE & GCC Operations
+                UAE Head Office (GCC)
               </p>
               <a
                 href={`tel:${SITE.phones.uae.tel}`}
@@ -130,16 +130,16 @@ export default function ContactPage() {
 
         </div>
 
-        {/* 4. Map Section (India Office Only) */}
+        {/* 4. Map Section (UAE Head Office) */}
         <div className="mt-8 mb-16">
           <div className="rounded-none border border-gray-200 overflow-hidden aspect-[16/10] md:aspect-[21/7] w-full shadow-sm bg-gray-50 relative group">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2029.9490117203281!2d73.94093145710526!3d18.995840033285702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd3b989902226d%3A0x738b0fb9a230ad82!2sAIDAMSOLE%20AGILE%20SERVICES%20PRIVATE%20LIMITED%20%7C%20Damsole%20Technologies%20-%20Top%20Digital%20Agency!5e1!3m2!1sen!2sus!4v1786691067244!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.827289871146!2d55.4384666150146!3d25.410657983802777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f577cfab8f15b%3A0x6bba843f5d5e5c8e!2sAjman%20Free%20Zone!5e0!3m2!1sen!2sae!4v1672531190000!5m2!1sen!2sae"
               className="w-full h-full border-0"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Aidamsole India Office Location Map"
+              title="Royal Wings Marketing UAE Head Office Location Map"
             />
           </div>
         </div>

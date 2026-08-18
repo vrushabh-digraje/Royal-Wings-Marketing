@@ -864,7 +864,7 @@ function ProductFrame({
           </p>
         </div>
         <span className="hidden rounded-full bg-white px-2.5 py-1 text-[11px] font-medium text-gray-500 shadow-sm sm:inline">
-          app.aidamsole.com/crm
+          app.royalwingsmarketing.com/crm
         </span>
       </div>
 
@@ -919,7 +919,7 @@ function CRMShell({
           </span>
           <div>
             <p className="text-xs font-semibold text-gray-900">
-              Aidamsole CRM
+              Royal Wings Marketing CRM
             </p>
             <p className="text-[11px] text-gray-500">Working product preview</p>
           </div>

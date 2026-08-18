@@ -9,7 +9,7 @@ type TopBarProps = {
 };
 
 export function TopBar({
-  label = "Zoho Authorized Partner · India & GCC",
+  label = "Zoho Authorized Partner · UAE & GCC",
 }: TopBarProps) {
   return (
     <div className="border-b border-primary/15 bg-primary text-white">

@@ -48,7 +48,7 @@ export async function sendAssessmentEmails(
   if (resend) {
     try {
       const response = await resend.emails.send({
-        from: `Aidamsole Audit <${senderEmail}>`,
+        from: `Royal Wings Marketing Audit <${senderEmail}>`,
         to: adminTo,
         subject: `New assessment submission (${context.tag})`,
         text: adminBody,
@@ -85,7 +85,7 @@ export async function sendAssessmentEmails(
     if (resend) {
       try {
         const response = await resend.emails.send({
-          from: `Aidamsole <${senderEmail}>`,
+          from: `Royal Wings Marketing <${senderEmail}>`,
           to: context.userEmail,
           subject: "We received your system assessment request",
           text: userBody,
@@ -150,7 +150,7 @@ export async function sendContactEmails(
   if (resend) {
     try {
       const response = await resend.emails.send({
-        from: `Aidamsole Contact <${senderEmail}>`,
+        from: `Royal Wings Marketing Contact <${senderEmail}>`,
         to: adminTo,
         subject: `New website contact message from ${context.firstName} ${context.lastName}`,
         text: adminBody,

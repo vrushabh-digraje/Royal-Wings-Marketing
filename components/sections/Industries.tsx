@@ -11,7 +11,7 @@ type IndustriesProps = {
 
 export function Industries({
   title = "Industries",
-  description = "Industry operating models for mid-market companies across India and the UAE.",
+  description = "Industry operating models for mid-market companies across the UAE and the GCC.",
 }: IndustriesProps) {
   const headingId = "industries-heading";
   const industries = getPublishedIndustries();

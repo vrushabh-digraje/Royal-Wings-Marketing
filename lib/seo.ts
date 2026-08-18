@@ -1,7 +1,7 @@
 import { ROUTES, SITE } from "@/lib/constants";
 
 /** Canonical production origin for metadata, sitemap, and JSON-LD. */
-export const SITE_URL = "https://aidamsole.com" as const;
+export const SITE_URL = "https://royalwingsmarketing.com" as const;
 
 export const siteConfig = {
   name: SITE.name,
@@ -58,44 +58,44 @@ export const STATIC_PAGES = {
   home: {
     published: true,
     path: ROUTES.home,
-    title: "Zoho Partner for Retail & Distribution | Aidamsole",
+    title: "Zoho Partner for Retail & Distribution | Royal Wings Marketing",
     description:
-      "Zoho Authorized Partner for retail and distribution teams across India & GCC. CRM, inventory, and operations on one connected Zoho system.",
+      "Zoho Authorized Partner for retail and distribution teams across UAE & GCC. CRM, inventory, and operations on one connected Zoho system.",
   },
   contact: {
     published: true,
     path: ROUTES.contact,
     title: "Contact | Book a Zoho Consultation",
     description:
-      "Book a free Zoho consultation with Aidamsole. Offices in Manchar, Maharashtra and Ajman Free Zone, UAE.",
+      "Book a free Zoho consultation with Royal Wings Marketing. Headquartered in Ajman Free Zone, UAE.",
   },
   about: {
     published: true,
     path: ROUTES.about,
-    title: "About Aidamsole | Zoho Authorized Partner",
+    title: "About Royal Wings Marketing | Zoho Authorized Partner",
     description:
-      "Aidamsole Agile Services is a Zoho Authorized Partner helping mid-sized businesses implement Zoho across India and the GCC.",
+      "Royal Wings Marketing is a Zoho Authorized Partner helping mid-sized businesses implement Zoho across the UAE and the GCC.",
   },
   caseStudies: {
     published: true,
     path: ROUTES.caseStudies,
     title: "Case Studies | Zoho System Designs",
     description:
-      "Industry Zoho system designs from Aidamsole — process-first implementations for growing businesses.",
+      "Industry Zoho system designs from Royal Wings Marketing — process-first implementations for growing businesses.",
   },
   insights: {
     published: true,
     path: ROUTES.insights,
     title: "Insights | Zoho Implementation Notes",
     description:
-      "Practical notes on Zoho CRM, operating design, and implementation patterns from Aidamsole.",
+      "Practical notes on Zoho CRM, operating design, and implementation patterns from Royal Wings Marketing.",
   },
   solutionsHub: {
     published: true,
     path: ROUTES.solutions,
     title: "Zoho Solutions | Sales, Ops, Support & Finance",
     description:
-      "Zoho solution systems Aidamsole designs for sales ownership, operations, support SLAs, and finance collections.",
+      "Zoho solution systems Royal Wings Marketing designs for sales ownership, operations, support SLAs, and finance collections.",
   },
   industriesHub: {
     published: true,
@@ -109,27 +109,27 @@ export const STATIC_PAGES = {
     path: ROUTES.platform,
     title: "Zoho Platform | CRM & Connected Apps",
     description:
-      "Zoho apps Aidamsole implements — CRM and connected modules configured around your operating process.",
+      "Zoho apps Royal Wings Marketing implements — CRM and connected modules configured around your operating process.",
   },
   privacy: {
     published: true,
     path: ROUTES.privacy,
-    title: "Privacy Policy | Aidamsole",
+    title: "Privacy Policy | Royal Wings Marketing",
     description:
-      "How Aidamsole Agile Services collects and uses information from website enquiries and consultations.",
+      "How Royal Wings Marketing collects and uses information from website enquiries and consultations.",
   },
   terms: {
     published: true,
     path: ROUTES.terms,
-    title: "Terms of Use | Aidamsole",
+    title: "Terms of Use | Royal Wings Marketing",
     description:
-      "Terms governing use of the Aidamsole website and related consultation enquiries.",
+      "Terms governing use of the Royal Wings Marketing website and related consultation enquiries.",
   },
   approach: {
     published: true,
     path: ROUTES.approach,
     title: "Our Approach | Process Before Zoho Configuration",
     description:
-      "How Aidamsole designs Zoho systems — process mapping, system design, configuration, training, and stabilization.",
+      "How Royal Wings Marketing designs Zoho systems — process mapping, system design, configuration, training, and stabilization.",
   },
 } as const;
