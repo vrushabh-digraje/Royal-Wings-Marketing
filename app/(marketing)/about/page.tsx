@@ -171,52 +171,15 @@ export default function AboutPage() {
           {/* 4. Region Cards Title */}
           <div className="mb-8">
             <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-              Regional Operations
+              Our Head Office
             </h2>
             <p className="mt-2 text-sm text-gray-500">
-              Get in touch with our certified implementation teams based in the UAE and India.
+              Get in touch with our certified implementation team based in Ajman, UAE.
             </p>
           </div>
 
-          {/* 3. Interactive Offices Grid (Sharp theme, no border radius) */}
-          <div className="grid gap-6 sm:grid-cols-2">
-            
-            {/* India Card */}
-            <div className="group relative flex flex-col justify-between rounded-none border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-primary hover:-translate-y-1 overflow-hidden">
-              {/* Top border colored accent strip */}
-              <div className="absolute top-0 inset-x-0 h-1.5 bg-amber-500 shrink-0" />
-              
-              <div>
-                <p className="text-[10px] font-bold uppercase tracking-wider text-amber-600">
-                  India Delivery Center
-                </p>
-                <a
-                  href={`tel:${SITE.phones.india.tel}`}
-                  className="mt-3 inline-flex items-center gap-1.5 text-base font-extrabold text-gray-900 no-underline hover:text-primary transition duration-200"
-                >
-                  {SITE.phones.india.display}
-                  <span className="text-xs text-gray-400 group-hover:translate-x-1 transition-transform" aria-hidden="true">→</span>
-                </a>
-                <p className="mt-4 text-xs leading-relaxed text-gray-500">
-                  {SITE.addresses.india.lines.map((line) => (
-                    <span key={line} className="block">
-                      {line}
-                    </span>
-                  ))}
-                </p>
-              </div>
-
-              {/* Card Footer indicator */}
-              <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-[11px] text-gray-400 font-semibold">
-                <span>Certified Zoho Partner Office</span>
-                <span className="flex items-center gap-1.5">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                  Active Support
-                </span>
-              </div>
-            </div>
-
-            {/* UAE Card */}
+          {/* 3. Interactive Office Card (Sharp theme, no border radius) */}
+          <div className="max-w-md">
             <div className="group relative flex flex-col justify-between rounded-none border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-primary hover:-translate-y-1 overflow-hidden">
               {/* Top border colored accent strip */}
               <div className="absolute top-0 inset-x-0 h-1.5 bg-sky-500 shrink-0" />
@@ -226,14 +189,14 @@ export default function AboutPage() {
                   UAE Head Office (GCC)
                 </p>
                 <a
-                  href={`tel:${SITE.phones.uae.tel}`}
+                  href={`tel:${SITE.phone.tel}`}
                   className="mt-3 inline-flex items-center gap-1.5 text-base font-extrabold text-gray-900 no-underline hover:text-primary transition duration-200"
                 >
-                  {SITE.phones.uae.display}
+                  {SITE.phone.display}
                   <span className="text-xs text-gray-400 group-hover:translate-x-1 transition-transform" aria-hidden="true">→</span>
                 </a>
                 <p className="mt-4 text-xs leading-relaxed text-gray-500">
-                  {SITE.addresses.uae.lines.map((line) => (
+                  {SITE.address.lines.map((line) => (
                     <span key={line} className="block">
                       {line}
                     </span>
@@ -250,7 +213,6 @@ export default function AboutPage() {
                 </span>
               </div>
             </div>
-
           </div>
 
         </div>

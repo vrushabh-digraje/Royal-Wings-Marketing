@@ -7,35 +7,17 @@ export const SITE = {
   email: "hi@royalwingsmarketing.com",
   /** WhatsApp (UAE) — digits only with country code */
   whatsapp: "971568309866",
-  phones: {
-    india: {
-      display: "093569 17424",
-      tel: "+919356917424",
-    },
-    uae: {
-      display: "+971 56 830 9866",
-      tel: "+971568309866",
-    },
+  phone: {
+    display: "+971 56 830 9866",
+    tel: "+971568309866",
   },
-  addresses: {
-    india: {
-      label: "India",
-      lines: [
-        "1st Floor, Madhuban Complex",
-        "Office no. 103, 104, near Maxcare Hospital",
-        "Manchar, Maharashtra 410503",
-      ],
-      short: "Manchar, Maharashtra, India",
-    },
-    uae: {
-      label: "UAE",
-      lines: [
-        "C1 - 1F - SF7618",
-        "Ajman Free Zone C1 Building",
-        "Ajman, UAE",
-      ],
-      short: "Ajman Free Zone, UAE",
-    },
+  address: {
+    lines: [
+      "C1 - 1F - SF7618",
+      "Ajman Free Zone C1 Building",
+      "Ajman, UAE",
+    ],
+    short: "Ajman Free Zone, UAE",
   },
   /** Google Maps / listing share link */
   mapsUrl: "https://maps.app.goo.gl/yJ6FhGj8gD6P2vK48",
